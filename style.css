@@ -1,3 +1,7 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
 .topper {
   display: flex;
   justify-content: center;
@@ -6,7 +10,7 @@
 
 .brandtitle {
   color: #fff;
-  font-size: 36px;
+  font-size: 48px;
   padding-top: 15px;
   padding-left: 5px;
   margin-top: 34px;
@@ -20,19 +24,81 @@
 
 /* Menu */
 .bg-dark {
-  background-color: #2E3595 !important;
+  background-color: #464646 !important;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-  background-color: #2E3595 !important;
+  background-color: #464646 !important;
   color: #F5BF0E !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  background-color: #2E3595 !important;
+  background-color: #464646 !important;
   color: #fff !important;
 }
+
+.belownavbar {
+  display: flex;
+  height: 500px;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.leftmid {
+  display: flex;
+  height: 100%;
+  margin: 10px;
+}
+
+.yerba {
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+}
+
+.pagetitlecontainer {
+  display: flex;
+  width: 50%;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.pagetitle {
+  font-size: 36px;
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  margin-top: 12px;
+  margin-bottom: 25px;
+}
+
+.pagesubtitle {
+  font-size: 30px;
+  text-align: right;
+  margin-bottom: 25px;
+}
+
+.parcontainer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.rightmid {
+  display: flex;
+  height: 100%;
+  margin: 10px;
+}
+
+.sharing {
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+}
+
 .footer {
+  margin-top: 20px;
   background-color: #2E3595 !important;
   color: #fff !important;
 }
