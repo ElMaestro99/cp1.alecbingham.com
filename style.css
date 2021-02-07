@@ -62,19 +62,27 @@ body {
   border: 2px black solid;
 }
 
+.review {
+  text-align: left;
+  padding: 10px;
+  margin: 12px;
+  border: 3px #8A2222 solid;
+}
+
 .footer {
-  justify-content: center;
+  display: flex;
+  height: 60px;
+  justify-content: space-around;
   background-color: #4E9455;
 }
 
 .footerLogo {
-  margin-left: 25%;
-  margin-right: 12%;
+  margin-top: 10px;
 }
 
 .gitLink {
-  margin-left: 12%;
-  margin-right: 25%;
+  margin-top: 10px;
+  color: black;
 }
 
 @media (min-width: 48em) {
@@ -107,5 +115,9 @@ body {
       justify-content: center;
       max-height: 400px;
       object-fit: cover;
+    }
+
+    .review {
+      font-size: 36px;
     }
 }
