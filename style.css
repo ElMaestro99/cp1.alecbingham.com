@@ -29,6 +29,16 @@ body {
   margin-bottom: 25px;
 }
 
+.otherTitle {
+  font-size: 36px;
+  font-weight: bold;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 25px;
+}
+
 .pagesubtitle {
   font-size: 30px;
   text-align: right;
